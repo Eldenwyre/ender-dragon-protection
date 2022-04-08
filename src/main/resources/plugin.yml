@@ -1,0 +1,11 @@
+name: Ender_dragon_protection
+version: '${project.version}'
+main: com.eldenwyre.ender_dragon_protection.Ender_dragon_protection
+api-version: 1.18
+authors: [ Eldenwyre ]
+description: Serverside plugin to prevent enderdragon death
+
+commands:
+  toggleDragonDamage:
+    description: (Console Only) Toggles the capability for the ender dragon to be damaged
+    usage: /toggleDragonDamage
